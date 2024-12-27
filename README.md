@@ -74,14 +74,19 @@ Visit http://localhost:5173 in your browser to play the game.
 ## *Swipe Controls*
 
 ***Swipe Left:** Move the car to the left lane.*
+
 ***Swipe Right:** Move the car to the right lane.*
+
 *Alternatively, use the Arrow Left and Arrow Right keys on your keyboard to move the car.*
 
 ## *Future Improvements*
 
 *Add more obstacles with varying speeds.*
+
 *Introduce power-ups to make the game more interesting.*
+
 *Optimize the game for better performance on mobile devices.*
+
 *Add multiplayer support for competitive play.*
 
 ## *License*
@@ -89,6 +94,9 @@ Visit http://localhost:5173 in your browser to play the game.
 
 ## *Acknowledgments*
 *Three.js for the amazing 3D graphics.*
+
 *React for the smooth user interface.*
+
 *React Three Fiber for simplifying the integration of Three.js with React.*
+
 *React Drei for useful utilities and helpers for 3D rendering.*
