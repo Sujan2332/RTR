@@ -1,4 +1,4 @@
-# *3D Car Game*
+# *Reverse Tarffic Racer - A 3D Game*
 
 ## *A 3D car game built with React and Three.js that lets you control a car on a road, dodge obstacles, and increase your score by avoiding collisions. The game is designed for mobile users with swipe controls and offers an immersive 3D environment.*
 
@@ -9,6 +9,10 @@
 - ***Collision Detection**: Game ends upon collision with obstacles, triggering a game over screen.*
 - ***Score System**: Increases score when obstacles are successfully passed.*
 - ***Responsive Design**: Mobile-friendly controls and UI.*
+
+## *Preview*
+
+### *[Play 🏎️](https://sujan2332.github.io/RTR/)*
 
 ## *Game Flow*
 
@@ -34,7 +38,7 @@ git clone https://github.com/yourusername/3d-car-game.git
 Navigate to the project directory and install the required dependencies:
 
 ```
-cd 3d-car-game
+cd RTR
 npm install
 ```
 
