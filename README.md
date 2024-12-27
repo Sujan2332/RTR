@@ -46,20 +46,24 @@ Visit http://localhost:5173 in your browser to play the game.
 ## *Technologies Used*
 
 ***React:** Frontend framework for building the user interface.*
+
 ***Three.js:** 3D JavaScript library for rendering 3D graphics.*
+
 ***@react-three/fiber:** React renderer for Three.js.*
+
 ***@react-three/drei:** A set of useful utilities and components for React Three Fiber.*
+
 ***React-Use:** Custom hooks for state management and events (such as swipe gestures).*
 
 ## *Components*
 
-***Canvas:** The main Three.js rendering area that houses all 3D objects.
-***Car:** A 3D model of the car that the player controls.
-***Road:** A 3D model of the road that the car moves on.
-***Obstacle:** 3D obstacles that the player must avoid.
-***GameUI:** User interface displaying the score and game status.
-***useGameStore:** A custom hook for managing the game's state, such as score and game over status.
-***useSwipe:** A custom hook for handling swipe gestures to move the car.
+***Canvas:** The main Three.js rendering area that houses all 3D objects.*
+***Car:** A 3D model of the car that the player controls.*
+***Road:** A 3D model of the road that the car moves on.*
+***Obstacle:** 3D obstacles that the player must avoid.*
+***GameUI:** User interface displaying the score and game status.*
+***useGameStore:** A custom hook for managing the game's state, such as score and game over status.*
+***useSwipe:** A custom hook for handling swipe gestures to move the car.*
 
 ## *Swipe Controls*
 
