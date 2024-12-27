@@ -5,14 +5,20 @@ import { Road } from './components/Road';
 import { Obstacle } from './components/Obstacle';
 import { GameUI } from './components/GameUI';
 import { useGameStore } from './store/gameStore';
+import { useSwipe } from './hooks/useSwipe';
 import { useCallback } from 'react';
 
 function App() {
-  const { increaseScore, setGameOver, isPlaying } = useGameStore();
+  const { increaseScore, setGameOver, isPlaying,moveLane } = useGameStore();
 
   const handleCollision = useCallback(() => {
     setGameOver(true);
   }, [setGameOver]);
+
+  useSwipe({
+    onSwipeLeft: () => moveLane('left'),
+    onSwipeRight: () => moveLane('right')
+  });
 
   // Fixed positions for obstacles in each lane
   const obstaclePositions = [
