@@ -12,7 +12,7 @@
 
 ## *Preview*
 
-### *[Play Reverse Traffic Racer Here 🏎️🏎️🏎️](https://sujan2332.github.io/RTR/)*
+### *[🚨🚨🚨 Play Reverse Traffic Racer Here 🚨🚨🚨](https://sujan2332.github.io/RTR/)*
 
 ## *Game Flow*
 
