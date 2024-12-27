@@ -1,4 +1,4 @@
-# *Reverse Tarffic Racer - A 3D Game*
+# *Reverse Traffic Racer - A 3D Game*
 
 ## *A 3D car game built with React and Three.js that lets you control a car on a road, dodge obstacles, and increase your score by avoiding collisions. The game is designed for mobile users with swipe controls and offers an immersive 3D environment.*
 
@@ -12,7 +12,7 @@
 
 ## *Preview*
 
-### *[Play 🏎️](https://sujan2332.github.io/RTR/)*
+### *[Play Revsre Traffic Racer 🏎️](https://sujan2332.github.io/RTR/)*
 
 ## *Game Flow*
 
