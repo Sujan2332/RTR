@@ -13,8 +13,11 @@
 ## *Game Flow*
 
 *1. The game starts with the car on a road and obstacles positioned at random intervals.*
+
 *2. Users can move the car left or right to avoid obstacles using swipe gestures or keyboard arrows.*
+
 *3. The game ends when the car collides with an obstacle.*
+
 *4. A UI shows the current score, and users can restart the game after the game over.*
 
 ## *Installation*
