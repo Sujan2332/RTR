@@ -1,6 +1,7 @@
 import { useGameStore } from '../store/gameStore'; 
 import { Play, RotateCcw, Pause } from 'lucide-react';
 import { useState } from 'react';
+import "./GameCss.css"
 
 export function GameUI() {
   const { score, gameOver, isPlaying, highScore, speed, resetGame, setIsPlaying, lane } = useGameStore();
@@ -38,12 +39,11 @@ export function GameUI() {
   if (!isPlaying && !gameOver && !isPaused && !isResetting) {
     return (
       <div className="absolute inset-0 flex items-center justify-center" style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
-        <div className="bg-white/90 p-8 rounded-lg text-center">
+        <div className="bg-white/90 p-8 rounded-lg text-center main">
           <h1 className="text-4xl font-bold mb-4">Reverse Traffic Runner</h1>
           <p className="mb-6">Dodge the traffic and survive as long as you can while driving reverse!</p>
           <p className="mb-4 text-gray-600">Use ← → to switch between three lanes</p>
           <button
-          style={{margin:"0px 200px"}}
             onClick={() => setIsPlaying(true)}
             className="bg-blue-500 text-white px-8 py-3 rounded-lg flex items-center justify-center gap-2 hover:bg-blue-600 transition-colors"
           >
